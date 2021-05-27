@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>Book</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDrD_xHXCiOpRmIjQ7Xly5J-V9tAkrHfx2DQ&usqp=CAU">
+    <link rel="stylesheet" href="css/book.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="">Blog</a> </li>
+            <li> <a href="">Menue</a> </li>
+            <li> <a href="">Gallery</a> </li>
+            <li> <a href="">Contacts</a> </li>
+            <li> <a href="">About</a> </li>
+            <li> <a href="Home.html">Home</a> </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Book Your Vist Now!</h1>
+    </header>
+    <main>
+        <section>
+            <form method="POST">
+                <label>Name</label>
+                <input type="text" placeholder="Sohaila Mohsen" required><br>
+                <label>Email</label>
+                <input type="email" placeholder="Gust@gmail.com" required><br>
+                <label>Phone</label>
+                <input type="tel" placeholder="01*********" minlength="11" maxlength="11" required><br>
+                <label>People</label>
+                <input type="number" min="1" max="20" placeholder="3 Persons" required><br>
+                <label>Date</label>
+                <input type="date" placeholder="20/5/2020" required><br>
+                <label>Time</label>
+                <input type="time" required><br>
+                <label>Pay With</label><br>
+                <div>
+                    <input name="pay" id="cash" type="radio" value="cash" style="margin-right: 5px;">
+                    <label for="cash" style="display: inline;margin-left: 5px;">Cash</label>
+                </div>
+                <div>
+                    <input  name ="pay" id="card" type="radio" value="card" style="margin-right: 5px;">
+                    <label for="card"style="display: inline;margin-left: 5px;">Credit Card</label>
+                </div>
+
+                <button type="submit" style="
+                margin-left: 50%;
+                margin-top: 20px;;
+                padding: auto;
+                background:none;
+                color: rgb(182, 110, 77);
+                font-size: 25px ;
+                font-weight: bold;
+                border-width: 2px;
+                border-radius: 9px;
+                border-color: rgb(182, 110, 77);
+                border-style: solid;
+                font-family: Times New Roman (Headings CS);
+                font-weight: bold;
+                ">Book</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

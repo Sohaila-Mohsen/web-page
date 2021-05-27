@@ -1,0 +1,94 @@
+html {
+    background: url("https://cdn-cf.cfo.com/content/uploads/2019/05/GettyImages-1018141890-1024x683.jpg") no-repeat center fixed;
+    background-size: cover;
+  }
+input
+{
+    border-width: 2px;
+    border-style: ridge;
+    border-color: coral;
+    border-radius: 30cm;
+    margin: 5px;
+    margin-left:38%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+ input[type=submit] {
+    background : none;
+    border: none;
+    color: white;
+    padding: 19px 32px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 20px ;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+  }
+  #cash , #card
+  {
+    display: inline;
+  }
+label
+{
+    margin-right: 16px;
+    margin-left: 38%;
+    display: block;
+    font-size: 19px;
+
+}
+form{
+    padding-left: 500px;
+    background-color: white;
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(209, 219, 219);
+    border-radius: 20px;
+    padding:20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center ;    
+}
+header
+{
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(194, 181, 175);
+    font-family: Brush Script MT;
+}
+ul{
+    list-style-type: none;
+    margin: -8px;
+    padding: 10px;
+    background-color: rgba(236, 171, 118, 0.603);
+    text-align: right;
+    position: relative;
+    z-index: 4;
+    font-size: 20px;
+   font-family: Arial Black;
+}
+li{
+    display: inline;
+    padding: 0px;
+}
+a {
+    color: white;
+    opacity: 1;
+    font-size: 15px ;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+  }
+a:hover,a:active
+{
+    background-color: rgb(158, 84, 50);
+    color: white;
+    opacity: 0.8;
+    font-size: 17px ;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
